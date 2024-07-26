@@ -1,7 +1,36 @@
 * {
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .header {
+    padding: 25px 250px;
     background-color: #1F2937;
+    display: flex;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.header .nav {
+    flex: 1;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    flex: 1;
 }
