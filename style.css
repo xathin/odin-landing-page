@@ -74,3 +74,33 @@ a {
 .image p {
     margin: auto;
 }
+
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container .item {
+    width: 200px;
+}
+
+.item .box {
+    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.item .text {
+    color: #1F2937;
+    text-align: center;
+}
