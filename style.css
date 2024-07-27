@@ -104,3 +104,23 @@ a {
     color: #1F2937;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 400px;
+}
+
+.quote blockquote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote p {
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin: 0 100px 0 0;
+}
