@@ -124,3 +124,34 @@ a {
     text-align: right;
     margin: 0 100px 0 0;
 }
+
+.cta {
+    padding: 100px 250px;
+}
+
+.cta .container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 48px 150px;
+    align-items: center;
+}
+
+.cta .text {
+    /* padding: 48px 0; */
+    flex: 1 1 auto;
+}
+
+.cta .text h2 {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.cta .text p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.cta .button.primary {
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
