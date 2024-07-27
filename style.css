@@ -9,7 +9,8 @@ a {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     padding: 25px 250px;
     background-color: #1F2937;
     display: flex;
@@ -73,6 +74,10 @@ a {
 
 .image p {
     margin: auto;
+}
+
+.information {
+    margin-bottom: 150px;
 }
 
 .information h2 {
@@ -154,4 +159,8 @@ a {
 .cta .button.primary {
     border: 2px solid #F9FAF8;
     color: #F9FAF8;
+}
+
+.copyright {
+    margin: auto;
 }
